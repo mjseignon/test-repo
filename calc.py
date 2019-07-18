@@ -13,5 +13,10 @@ def compute(string):
     elif operator == '-':
         return num0 - num1
     else:
-        raise ValueError('Unknown operator!')
+        msg = f'Unknown operator: "{operator}"'
+        msg += '\nChoose from "+" and "-".'
+        raise ValueError(msg)
 
+if __name__ == '__main__':
+    import sys
+    print(compute(sys.argv[1]))
