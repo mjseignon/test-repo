@@ -9,6 +9,7 @@ def compute(string):
         return num0 - num1
     else:
         msg = f'Unknown operator: "{operator}"'
+        msg += '\nChoose from "+" and "-".'
         raise ValueError(msg)
 
 if __name__ == '__main__':
