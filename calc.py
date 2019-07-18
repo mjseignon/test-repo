@@ -1,5 +1,6 @@
 def compute(string):
     """
+    Calculator for the ages!!!
     Perform simple arithmetic based on string
     
     Example: '5 + 7' -> 12
