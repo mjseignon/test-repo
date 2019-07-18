@@ -11,3 +11,6 @@ def compute(string):
         msg = f'Unknown operator: "{operator}"'
         raise ValueError(msg)
 
+if __name__ == '__main__':
+    import sys
+    print(compute(sys.argv[1]))
